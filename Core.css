@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, article, footer,aside, hgroup{
+    display: block;
+}
+  
+body, html{
+    text-align: center;
+    background-color: #FFFFFF;
+    height: 100%;
+    font-family: Tahoma, Sans-serif;
+}
+
+.subheader{
+    text-align: left;
+    padding: 20px 0;
+    font-family: "Eras ITC";
+    font-weight: 500;
+    font-size: 24px;
+    width: 100%;
+    display: block;
+}
+
+#ALL-CONTAINER{
+    width: 100%;
+}
+
+#desktop-nav{
+    width: 90%;
+    padding: 10px 5%;
+    text-align: left;
+    background: #0088ff;
+    color: white;
+    font-family: "Eras ITC";
+}
+
+#desktop-nav h1{
+    font-weight: 600;
+}
+
+#content{
+    width: 800px;
+    margin: auto;
+}
+
+#flashcard-container{
+    width: 100%;
+    border-spacing: 10px;
+}
+
+#flashcard-container tr:first-child{
+    height: 40px;
+}
+
+#flashcard-container tr:first-child th{
+    font-weight: normal;
+}
+
+#flashcard-container .card-row{
+    height: 200px;
+    margin-bottom: 10px;
+    background: blue;
+}
+
+.flashcard{
+    background: #e9e9e9;
+    width: 350px;
+    height: 200px;
+    border: 4px solid #c9c9c9;
+}
+
+form{
+    display: block;
+    float: left;
+}
+
+textarea{
+    float: left;
+    margin-right: 20px;
+}
+
+input[type *= "submit"]{
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 100px;
+    outline: 0;
+    border: 0;
+    background: #52a0e5;
+    color: #ffffff;
+    display: block;
+}
+
+input[type *= "submit"]:hover{
+    background: #0088ff;
+}
+
+.deleteButton{
+    background: url("/res/trash_gray.svg") no-repeat center;
+    background-size: 30px 30px;
+    cursor: pointer;
+    border: 4px solid #c9c9c9;
+}
+
+.deleteButton:hover{
+    background: url("/res/trash_red.svg") no-repeat center;
+    background-size: 30px 30px;
+}
+
+
